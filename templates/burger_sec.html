@@ -1,0 +1,450 @@
+{% extends "index.html" %}
+
+{% block title %}Burger{% endblock title %}
+
+{% block pizza %}
+
+    <main>
+        <div class="Full_sec" id="items">
+            <div class="main_bg_img">
+            <div class="main_sec">
+                <select class="sec">
+                    <option value="">All</option>
+                    <option value="">Vegge</option>
+                    <option value="">Non Vegge</option>
+                </select>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Burger_img/Burger1.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Smoky Melt Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-1"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A juicy grilled beef patty topped with rich melted cheese, 
+                                fresh lettuce, ripe tomato, and smoky sauce, all tucked inside a soft 
+                                sesame bun for a bold, satisfying bite.</p>
+
+                            <div class="price" data-price="199">₹199</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Burger_img/Burger2.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Classic Crunch Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-2"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A perfectly grilled beef patty layered with melted cheddar,
+                                crisp lettuce, juicy tomato, and fresh onions, served on a toasted sesame
+                                bun for a timeless, flavorful burger experience.</p>
+
+                            <div class="price" data-price="104">₹104</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger3.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Garden Stack Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-3"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A hearty stacked 3 burger filled with juicy patties, fresh lettuce, 
+                                ripe tomatoes, onions, and creamy sauce, served on a toasted bun for a vibrant, 
+                                wholesome, and satisfying flavor experience.</p>
+
+                            <div class="price" data-price="209">₹209</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger4.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Golden Crunch Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-4"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A crispy, flavor-packed patty layered with creamy sauce, 
+                                tangy pickles, and fresh purple slaw, all nestled in a sesame bun 
+                                for a bold, crunchy, and satisfying bite.</p>
+
+                            <div class="price" data-price="249">₹249</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger5.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Juicy Feast</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-5"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A thick, juicy beef patty topped with fresh lettuce, 
+                                ripe tomato, creamy sauce, and crispy fries, served in a soft 
+                                bun for a rich, comforting, and satisfying burger delight.</p>
+
+                            <div class="price" data-price="99">₹99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger6.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Crispy Chicken Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-6"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A mouthwatering 2 cheeseburger stacked with juicy chicken, melted cheese, 
+                                fresh lettuce, and pickles, served alongside crispy golden fries and creamy 
+                                dip for a bold, indulgent comfort meal.
+                            </p>
+
+                            <div class="price" data-price="229">₹229</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger7.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Classic Fresh Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-7"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Two juicy grilled patties layered with crisp lettuce, 
+                                fresh tomato, and purple onion, served on soft whole-grain buns for 
+                                a light, wholesome, and deliciously satisfying burger experience.
+                            </p>
+
+                            <div class="price" data-price="179">₹179</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger8.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Stack Egg Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-8"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A juicy burger crowned with a perfectly cooked egg, 
+                                fresh lettuce, tomato, and savory sauce, paired with crispy fries 
+                                for a bright, hearty, and irresistibly satisfying meal.
+                            </p>
+
+                            <div class="price" data-price="349">₹349</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger9.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Triple Stack</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-9"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Juicy layered beef patties with melted cheddar, 
+                                crisp lettuce, and toasted sesame buns, stacked generously for 
+                                a rich, smoky, indulgent bite that feels hearty, satisfying, 
+                                and timeless.
+                            </p>
+
+                            <div class="price" data-price="599">₹599</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger10.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Loaded Classic Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-10"></i>
+                            </div>
+
+                            <p class="food_para">A soft toasted bun hugs a juicy patty with 
+                                fresh lettuce, tomato, and creamy sauce, served alongside 
+                                crispy fries for a comforting, flavorful meal everyone 
+                                loves.
+                            </p>
+
+                            <div class="price" data-price="349">₹349</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger11.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Garden Delight</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-11"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A juicy patty layered with fresh lettuce, 
+                                ripe tomatoes, melted cheese, and a golden bun, creating 
+                                a wholesome, colorful burger that looks fresh, tastes 
+                                rich, and feels satisfying.
+                            </p>
+
+                            <div class="price" data-price="124">₹124</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger12.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Twin Classic Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-12"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Two perfectly grilled patties topped with 
+                                melted cheese, crisp lettuce, and fresh tomatoes, tucked 
+                                inside soft sesame buns for a simple, juicy, and 
+                                irresistibly satisfying burger experience.
+                            </p>
+
+                            <div class="price" data-price="204">₹204</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger13.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Urban Stack</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-13"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A bold beef patty with melted cheese, fresh greens, 
+                                red onions, and toasted sesame bun, paired with golden fries for a 
+                                rich, modern, crave-worthy bite.
+                            </p>
+
+                            <div class="price" data-price="114">₹114</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger14.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Crispy Tower</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-14"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A tall stack of crunchy fried layers, creamy sauce, 
+                                and soft toasted buns, delivering a satisfying crunch with every 
+                                bite and a rich, comforting flavor experience.
+                            </p>
+
+                            <div class="price" data-price="241">₹241</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger15.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Fresh Bite</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-15"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A golden bun filled with a crispy patty, fresh lettuce, 
+                                juicy tomatoes, and creamy sauce, offering a light, colorful, 
+                                and deliciously satisfying burger experience.
+                            </p>
+
+                            <div class="price" data-price="149">₹149</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                            <div class="main_pic"><img src="static/Burger_img/Burger16.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Franch Crispy Burger</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-16"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Two soft buns filled with crunchy fried chicken, fresh lettuce, 
+                                and light seasoning, delivering a simple, golden, and irresistibly satisfying 
+                                bite that feels warm, familiar, and comforting.
+                            </p>
+
+                            <div class="price" data-price="249">₹249</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+{% endblock pizza %}

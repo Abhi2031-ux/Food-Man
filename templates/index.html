@@ -1,0 +1,609 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+    <div class="banner_img"></div>
+
+    <main> 
+        <div class="scroll-wrapper">
+            <div class="scroling_bar">
+                <div class="items_box">
+                    <a href='/pizza_sec'>
+                        <div class="items"><img src="static/Images/S_Pizza.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Pizza</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/burger_sec'>
+                        <div class="items"><img src="static/Images/S_Burger.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Burger</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/subway_sec'>
+                        <div class="items"><img src="static/Images/S_Subway.webp" class="food_img"></div>
+                        <p class="food_items_txt">Subway</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/roll_sec'>
+                        <div class="items"><img src="static/Images/S_Roll.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Roll</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/biryani_sec'>
+                        <div class="items"><img src="static/Images/S_Biryani.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Biryani</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/dosa_sec'>
+                        <div class="items"><img src="static/Images/S_Dosa.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Dosa</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/itli_sec'>
+                        <div class="items"><img src="static/Images/S_Itli.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Itli</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/cake_sec'>
+                        <div class="items"><img src="static/Images/S_Cake.webp" class="food_img"></div>
+                        <p class="food_items_txt">Cake</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/cold_drink_sec'>
+                        <div class="items"><img src="static/Images/S_Cold_drink.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Cold Drink</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/ice_cream_sec'>
+                        <div class="items"><img src="static/Images/S_Ice_Cream.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Ice Cream</p>
+                    </a>
+                </div>
+
+                <div class="items_box">
+                    <a href='/sweets_sec'>
+                        <div class="items"><img src="static/Images/S_Gulab_Jamun.jpg" class="food_img"></div>
+                        <p class="food_items_txt">Sweets</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        {% block pizza %}
+
+        <div class="Full_sec" id="items">
+            <div class="main_bg_img">
+            <div class="main_sec">
+                {% comment %} <select class="sec">
+                    <option value="">All</option>
+                    <option value="">Vegge</option>
+                    <option value="">Non Vegge</option>
+                </select> {% endcomment %}
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Pizza.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Pepperoni Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-pepperoni"></i>
+
+                            </div>
+
+                            <p class="food_para">A perfect blend of crispy pepperoni, fresh veggies, black olives, and
+                                melted cheese
+                                resting on a fluffy golden crust. Every slice bursts with rich flavors and vibrant
+                                colors, making it a delicious harmony of taste and texture.
+                            </p>
+
+                            <div class="price" data-price="199">₹199</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box item">
+                        <div class="main_pic"><img src="static/Images/M_Mell.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Ultimate Burger Combo</h4>
+                                <i class="fa-regular fa-heart heart" data-id="burger-1"></i>
+
+
+                            </div>
+
+                            <p class="food_para">A delicious duo of juicy burgers layered with fresh veggies, melted
+                                cheese, and soft toasted buns—paired with golden crispy fries, tender nuggets, and
+                                chilled fizzy drinks. A perfect feast that brings comfort, flavor, and pure satisfaction
+                                in every bite.
+                            </p>
+
+                            <div class="price" data-price="699">₹699</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Dosa.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Masala Dosa</h4>
+                                <i class="fa-regular fa-heart heart" data-id="dosa-1"></i>
+
+                            </div>
+
+                            <p class="food_para">A thin, golden-crisp dosa wrapped around flavorful spiced potato
+                                filling, served with warm sambar and creamy chutneys. Every bite brings a perfect
+                                harmony of crisp texture, rich aroma, and comforting South Indian flavor.
+                            </p>
+
+                            <div class="price" data-price="149">₹149</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Biryani.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Chicken Biryani</h4>
+                                <i class="fa-regular fa-heart heart" data-id="biryani-1"></i>
+
+                            </div>
+
+                            <p class="food_para">A fragrant bowl of golden basmati rice layered with tender,
+                                spice-infused chicken drumsticks, caramelized onions, and fresh herbs. Every bite
+                                delivers rich aroma, deep flavors, and the true comfort of authentic biryani.
+                            </p>
+
+                            <div class="price" data-price="349">₹349</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Noodles.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Veg Noodles</h4>
+                                <i class="fa-regular fa-heart heart" data-id="noodles-1"></i>
+
+                            </div>
+
+                            <p class="food_para">A vibrant bowl of perfectly tossed noodles mixed with crisp veggies,
+                                rich seasoning, and irresistible wok-fried aroma. Every bite brings a burst of flavor,
+                                warmth, and delicious comfort.
+                            </p>
+
+                            <div class="price" data-price="119">₹119</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Chicken.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Crispy Chicken 65</h4>
+                                <i class="fa-regular fa-heart heart" data-id="chicken-1"></i>
+
+                            </div>
+
+                            <p class="food_para">Tender, juicy chicken pieces fried to perfection and coated in a spicy,
+                                flavorful marinade—finished with curry leaves for that irresistible aroma. A bold,
+                                crunchy delight that delivers pure satisfaction in every bite
+                            </p>
+
+                            <div class="price" data-price="249">₹249</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Roll.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Spicy Paneer Roll</h4>
+                                <i class="fa-regular fa-heart heart" data-id="roll-1"></i>
+
+                            </div>
+
+                            <p class="food_para">Soft, flaky paratha wrapped around juicy, marinated paneer cubes, crisp
+                                veggies, and bold spices—creating a perfect handheld burst of flavor in every bite.
+                            </p>
+
+                            <div class="price" data-price="70">₹70</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Itli.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Soft & Fluffy Idli</h4>
+                                <i class="fa-regular fa-heart heart" data-id="itli-1"></i>
+
+                            </div>
+
+                            <p class="food_para">Steamed to perfection, these soft and airy idlis rest on fresh banana
+                                leaves, served with warm sambar and creamy coconut chutney—bringing gentle, comforting
+                                South Indian flavors in every bite.
+                            </p>
+
+                            <div class="price" data-price="99">₹99</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Kebab.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Spicy Seekh Kebab</h4>
+                                <i class="fa-regular fa-heart heart" data-id="kebab-1"></i>
+
+                            </div>
+
+                            <p class="food_para">Spicy Seekh Kebab is a flavorful, smoky delight made from tender minced
+                                meat blended with aromatic spices and grilled to perfection. Served with fresh onions,
+                                lemon wedges, and warm naan, each bite delivers a perfect balance of heat and juiciness.
+                            </p>
+
+                            <div class="price" data-price="199">₹199</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Momo.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Steamed Momos</h4>
+                                <i class="fa-regular fa-heart heart" data-id="momo-1"></i>
+
+                            </div>
+
+                            <p class="food_para">This Chicken Momo is filled with juicy,
+                                seasoned chicken wrapped in soft dumpling dough and steamed to perfection. Served with
+                                spicy chutney, it offers a warm, flavorful bite that’s comforting and delicious in every
+                                mouthful.
+                            </p>
+
+                            <div class="price" data-price="149">₹149</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Lava_Cake.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Chocolate Lava Cake</h4>
+                                <i class="fa-regular fa-heart heart" data-id="lava_cake-1"></i>
+
+                            </div>
+
+                            <p class="food_para">Chocolate Lava Cake is a rich, indulgent dessert with a soft, warm
+                                exterior and a molten, flowing chocolate center. Served with fresh cream or ice cream,
+                                each spoonful melts delightfully in the mouth.
+                            </p>
+
+                            <div class="price" data-price="229">₹229</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Latte_Coffee.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Latte Coffee</h4>
+                                <i class="fa-regular fa-heart heart" data-id="latte_coffee-1"></i>
+
+                            </div>
+
+                            <p class="food_para">A warm, creamy latte crafted with smooth espresso and silky steamed
+                                milk, topped with delicate latte art. Its rich aroma and gentle flavor make it a
+                                comforting drink perfect for any moment.
+                            </p>
+
+                            <div class="price" data-price="399">₹399</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Hot_Dog.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Hot Dog</h4>
+                                <i class="fa-regular fa-heart heart" data-id="hot_dog-1"></i>
+
+                            </div>
+
+                            <p class="food_para">A delicious hot dog loaded with a juicy sausage, fresh lettuce, onions,
+                                and ripe tomatoes, all tucked into a soft bun. Topped with mustard and ketchup, it
+                                delivers classic, satisfying street-food flavor.
+                            </p>
+
+                            <div class="price" data-price="199">₹199</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Fish.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Fish Fry</h4>
+                                <i class="fa-regular fa-heart heart" data-id="fish-1"></i>
+
+                            </div>
+
+                            <p class="food_para">This crispy fish fry is coated with flavorful spices, shallow-fried to
+                                a golden finish, and served with fresh curry leaves and lime. Each bite brings a perfect
+                                mix of crunch, heat, and zesty freshness.
+                            </p>
+
+                            <div class="price" data-price="299">₹299</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/food-6950991.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                    <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Paneer Masala</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ls-1"></i>
+
+                            </div>
+
+                            <p class="food_para">This Spicy Paneer Masala bursts with rich flavours, featuring soft
+                                paneer cubes simmered in a thick, aromatic gravy. Loaded with Indian spices, fresh
+                                herbs, and vibrant vegetables, it delivers a warm, delicious, and deeply satisfying
+                                taste experience.
+                            </p>
+
+                            <div class="price" data-price="549">₹549</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Images/M_Franch_fry.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                    <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name">
+                                <h4 class="name">Franch Fry</h4>
+                                <i class="fa-regular fa-heart heart" data-id="franch_fry-1"></i>
+
+                            </div>
+
+                            <p class="food_para">A perfect blend of crispy pepperoni, fresh veggies, black olives, and
+                                melted cheese
+                                resting on a fluffy golden crust. Every slice bursts with rich flavors and vibrant
+                                colors, making it a delicious harmony of taste and texture.
+                            </p>
+
+                            <div class="price" data-price="119">₹119</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        {% endblock pizza %}
+
+    </main>
+
+    <footer>
+
+        <div class="footer-bar2">
+            <div class="footer-text">
+                <p class="nav-footer">Resources</p>
+                <p class="footer">Find A Store</p>
+                <p class="footer">Become A Member</p>
+                <p class="footer">Send Us Feedback</p>
+            </div>
+
+            <div class="footer-text" id="f">
+                <p class="nav-footer">Help</p>
+                <p class="footer">Get Help</p>
+                <p class="footer">Order Status</p>
+                <p class="footer">Delivery</p>
+                <p class="footer" >Returns</p>
+                <p class="footer">Payment Options</p>
+                <p class="footer">Contact Us On Food Man.com Inquiries</p>
+                <p class="footer">Contact Us On All Other Inquiries</p>
+            </div>
+
+            <div class="footer-text">
+                <p class="nav-footer">Company</p>
+                <p class="footer">About Food Man</p>
+                <p class="footer">News</p>
+                <p class="footer">Careers</p>
+                <p class="footer">Investors</p>
+                <p class="footer">Sustainability</p>
+                <p class="footer">Report a Concern</p>
+            </div>
+
+            <div class="footer-text">
+                <div class="india">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>India</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="static/JS Files/app.js"></script>
+    {% comment %} <script src="{% static 'JS Files/app.js' %}"></script> {% endcomment %}
+</body>
+
+</html>
+{% endblock body %}

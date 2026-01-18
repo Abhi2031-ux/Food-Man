@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Man | {% block title %}{% endblock title %} 👨‍🍳</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="static/CSS Files/style.css">
+    <link rel="shortcut icon" href="static/Images/F_M_Logo.png">
+</head>
+
+<body>
+    <header>
+
+        <div class="nav_bar">
+            <a href="/">
+                <img src="static/Images/Food_Man_Logo.png" id="Logo">
+            </a>
+
+            <div class="nav_apps">
+                <div class="nav_text">
+                    <a href="/">
+                        <p class="apps" id="home">Home</p>
+                        <i class="fa-home fa-solid icons"></i>
+                    </a>
+                </div>
+
+                <div class="nav_text">
+                    <a href="/menu">
+                        <p class="apps" id="menu">Menu</p>
+                        <i class="fa-solid fa-book icons"></i>
+                    </a>
+                </div>
+
+                <div class="nav_text">
+                    <a href="/about_us">
+                        <p class="apps" id="contact">About Us</p>
+                        {% comment %} <i class="fa-regular fa-envelope icons"></i>
+                        <i class="fa-light fa-border-all icons"></i> {% endcomment %}
+                        <i class="fa-solid fa-border-all icons"></i>
+                    </a>
+                </div>
+                
+                <div class="nav_text more">
+                    <a href="/ads">
+                        <p class="apps" id="contact">Ads</p>
+                        <i class="fa-brands fa-adversal icons"></i>
+                    </a>
+                </div>
+
+                <div class="nav_text">
+                    <a href="/ordered">
+                        <p class="apps" id="ordered">Ordered</p>
+                        <i class="fa-solid fa-truck icons"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="InputContainer">
+                <input placeholder="Search.." id="input" class="input" name="text" type="text">
+                <i class="fa-solid fa-magnifying-glass search_icon"></i>
+            </div>
+
+            <div class="cart">
+                <a href="/add">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+
+        </div>
+
+        {% comment %} <div class="banner_img"></div> {% endcomment %}
+    </header>
+
+    {% block body %}{% endblock body %}
+
+
+</body>
+</html>

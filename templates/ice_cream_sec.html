@@ -1,0 +1,449 @@
+{% extends "index.html" %}
+
+{% block title %}Ice Cream{% endblock title %}
+
+{% block pizza %}
+
+    <main>
+        <div class="Full_sec" id="items">
+            <div class="main_bg_img">
+            <div class="main_sec">
+                <select class="sec">
+                    <option value="">All</option>
+                    <option value="">Vegge</option>
+                    <option value="">Non Vegge</option>
+                </select>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream1.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Vanilla Bliss</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-1"></i>
+                            </div>
+
+                            <p class="food_para">Creamy vanilla ice cream swirled with rich chocolate sauce, 
+                                topped with crunchy wafer, served chilled for a smooth, elegant, 
+                                and indulgent dessert experience.
+                            </p>
+
+                            <div class="price" data-price="199">₹199</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream2.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Choco Crunch</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-2"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Rich chocolate ice cream coated in silky chocolate shell, 
+                                sprinkled with crunchy nuts, creating a perfect balance of creamy, crisp, 
+                                and indulgent flavors.
+                            </p>
+
+                            <div class="price" data-price="90">₹90</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream3.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Triple Delight</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-3"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A colorful trio of creamy ice cream scoops drizzled 
+                                with chocolate syrup, served in crisp waffle cones, topped with 
+                                cherries for a joyful, indulgent treat.
+                            </p>
+
+                            <div class="price" data-price="149">₹149</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream4.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Choco Cherry</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-4"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Smooth chocolate ice cream crowned with whipped cream, 
+                                colorful sprinkles, and a bright cherry, served elegantly for a rich,
+                                 playful, and irresistible dessert moment.
+                            </p>
+
+                            <div class="price" data-price="170">₹170</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream5.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Cherry Sundae</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-5"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Creamy vanilla ice cream layered with rich chocolate sauce, 
+                                crunchy nuts, and juicy cherries, served chilled in a glass for a classic, 
+                                indulgent dessert delight.
+                            </p>
+
+                            <div class="price" data-price="220">₹220</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream6.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Choco Twins</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-6"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Two rich chocolate ice cream scoops nestled in crisp waffle cones, 
+                                topped with colorful sprinkles, offering a perfectly balanced, creamy, 
+                                and joyful dessert experience.
+
+                            <div class="price" data-price="120">₹120</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream7.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Baked Bliss</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-7"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Warm baked dessert topped with melting vanilla ice cream, 
+                                rich chocolate drizzle, and a bright cherry, creating a comforting blend of hot, 
+                                cold, soft, and sweet flavors.
+                            </p>
+
+                            <div class="price" data-price="70">₹70</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream8.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Cherry Sundae</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-8"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Creamy vanilla ice cream layered with chocolate sauce, 
+                                topped with fluffy whipped cream and a bright cherry, creating a classic, 
+                                elegant, and joyful dessert moment.
+                            </p>
+
+                            <div class="price" data-price="299">₹299</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream9.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Choco Overload</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-9"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Decadent chocolate ice cream loaded with brownie pieces, 
+                                chocolate bars, crunchy pearls, and rich sauce, creating an intense, 
+                                creamy, and indulgent dessert for true chocolate lovers.
+                            </p>
+
+                            <div class="price" data-price="240">₹240</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream10.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Sunset Swirl</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-10"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Creamy vanilla and strawberry swirls rise softly in a crisp cone, 
+                                blending sweet, milky flavors with sunset hues for a joyful, refreshing treat.
+                            </p>
+
+                            <div class="price" data-price="120">₹120</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream11.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Herb Bliss</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-11"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Fresh, creamy ice cream infused with natural herbs and milk, 
+                                offering a light, earthy sweetness that feels pure, refreshing, and gently 
+                                indulgent.
+                            </p>
+
+                            <div class="price" data-price="329">₹329</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream12.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Choco Crunch</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-12"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Rich chocolate ice cream packed in a crispy cone, topped with crunchy nuts
+                                and brownie bits, delivering bold cocoa flavor and delightful crunch.
+                            </p>
+
+                            <div class="price" data-price="200">₹200</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream13.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Cream Quartet</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-13"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Four delightful scoops in crisp cones, blending vanilla, berry,
+                                and chocolate flavors, creating a rich, colorful celebration of creamy textures 
+                                and sweetness.
+                            </p>
+
+                            <div class="price" data-price="360">₹360</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream14.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Jalabe Ice Cream</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-14"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Smooth, creamy pistachio ice cream made with real nuts and milk,
+                                offering a gentle sweetness, rich aroma, and refreshing, naturally indulgent 
+                                taste.
+                            </p>
+
+                            <div class="price" data-price="299">₹299</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream15.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Berry Waffle</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-15"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Creamy berry ice cream paired with golden waffles, 
+                                drizzled in syrup and crisp wafers, creating a perfect balance of warmth, 
+                                crunch, and cool sweetness.
+                            </p>
+
+                            <div class="price" data-price="249">₹249</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Ice_cream_img/Ice_cream16.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Cocoa Cozy</h4>
+                                <i class="fa-regular fa-heart heart" data-id="ice_cream-16"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Rich chocolate ice cream inspired by hot cocoa, 
+                                layered with deep cocoa notes and creamy swirls, delivering warmth, 
+                                comfort, and indulgent sweetness in every bite.
+                            </p>
+
+                            <div class="price" data-price="230">₹230</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    
+{% endblock pizza %}

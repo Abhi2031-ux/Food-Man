@@ -1,0 +1,50 @@
+.main_bg_img {
+    height: 90%;
+    width: 100%;
+    background-color: #F5AC11;
+    background-image: url("../Images/BG_img.jpg");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin: 10vh 0 0 0;
+    overflow: hidden;
+}
+
+.main_contan {
+    height: 92%;
+    width: 90%;
+    border-radius: 20px;
+    margin: 150px 0 150px 0;
+    background-color: #fff;
+    /* display: flex; */
+
+}
+
+.contact_txt {
+    height: 40px;
+    /* background: aliceblue; */
+    font-size: 25px;
+    font-weight: 600;
+    color: #212020;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+p.para_txts {
+    height: 105px;
+    margin: 25px 50px 120px 15px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.cont_info {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.info {
+    font-size: 17px;
+    margin: 80px 0 0 15px;
+}

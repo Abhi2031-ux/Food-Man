@@ -1,0 +1,72 @@
+.main_bg_img {
+    height: 90%;
+    width: 100%;
+    background-color: #F5AC11;
+    background-image: url("../Images/BG_img.jpg");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin: 10vh 0 0 0;
+    overflow: hidden;
+}
+
+.main_sec {
+    height: 92%;
+    width: 90%;
+    border-radius: 20px;
+    margin: 150px 0 150px 0;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#savedItems {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.food_bar {
+    height: 245px;
+    width: 44%;
+    margin: 30px;
+    transition: opacity .2s ease, transform .2s ease;
+}
+
+.price {
+    padding: 7px;
+}
+
+.txt_msg {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-family: revert;
+    color: #696969;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-shadow: 2px 2px 8px #696969;
+}
+
+.add_bar {
+    display: none;
+}
+
+@media (min-width: 1px) and (max-width: 1100px) {
+    .food_bar {
+        height: 280px;
+        width: 93%;
+    }
+}
+
+
+@media (min-width: 1px) and (max-width: 700px) {
+    .food_bar {
+        height: 220px;
+    }
+}

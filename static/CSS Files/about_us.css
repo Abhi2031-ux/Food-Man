@@ -1,0 +1,49 @@
+/* Todo: Main Section */
+
+body {
+    height: 100vh;
+    /* background-image: url('../Images/About_bg_img.jpg'); */
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+main {
+    margin: 11vh 0 0 0;
+}
+
+.about_sec {
+    height: 50vh;
+    width: 100%;
+    /* background-color: #eee0e0; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div {
+    height: 94%;
+    width: 90%;
+    /* background-color: #5500ff; */
+    justify-content: space-around;
+    align-items: anchor-center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    height: 15vmin;
+    width: 80vmin;
+    font-size: 19px;
+    border-radius: 5px;
+    background-color: #f48c06;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 3px 3px 10px #f48c06;
+}
+
+.boxes:hover {
+    box-shadow: 0 0 10px #d97f09;
+}

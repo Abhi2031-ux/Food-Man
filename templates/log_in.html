@@ -1,0 +1,47 @@
+{% extends "index.html" %}
+
+{% block title %}Log In{% endblock title %}
+
+{% block body %}
+
+<head>
+    <link rel="stylesheet" href="static/CSS Files/log_in.css">
+</head>
+
+<body>
+    
+    <main>
+        <div class="container">
+            <h1 class="tag">Log In</h1>
+            <div class="main_content">
+                <p class="txt">Username or gmail</p>
+                <input type='text' placeholder="Example@gmail.com" id='email'>
+    
+                <p class="txt">Password</p>
+                <input type='password' id='password'>
+    
+                <div class="log_in">Log In</div>
+                <p id="forgot_pass">Forgot password?</p>
+    
+                <div class="or_bar">
+                    <div class="line"></div>
+                    <p id="or_txt">or</p>
+                    <div class="line"></div>
+                </div>
+    
+                <div class="continue">
+                    <img src="static/Images/google logo.png" class="img">
+                    <p class="continue_txt">Continue with Google</p>
+                </div>
+                
+                <div class="continue">
+                    <img src="static/Images/facebook logo.png" class="img">
+                    <p class="continue_txt">Continue with Facebook</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+
+{% endblock body %}

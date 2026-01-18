@@ -1,0 +1,452 @@
+{% extends "index.html" %}
+
+{% block title %}Pizza{% endblock title %}
+
+{% block pizza %}
+
+    <main>
+        <div class="Full_sec" id="items">
+
+        <div class="main_bg_img">
+            <div class="main_sec">
+                <select class="sec">
+                    <option value="">All</option>
+                    <option value="">Vegge</option>
+                    <option value="">Non Vegge</option>
+                </select>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza1.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Garden Fiesta Supreme</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza_garden_fies_sup"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A delicious harmony of melted cheese, black olives, fresh peppers, 
+                                juicy tomatoes, and savory toppings on a golden crust, bursting with rich flavor.
+                            </p>
+
+                            <div class="price" data-price="199">₹199</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza2.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Classic Olive Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-2"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Golden crust topped with melted mozzarella, olives, bell peppers, 
+                                mushrooms, and herbs, finished with fresh basil, delivering a rich, comforting flavor 
+                                in every bite perfectly.
+                            </p>
+
+                            <div class="price" data-price="219">₹219</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza3.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Smoky BBQ Chicken Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-3"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Smoky BBQ chicken pizza layered with juicy grilled chicken, melted
+                                mozzarella, sweet peppers, and barbecue drizzle, baked on a golden crust for bold,
+                                irresistible flavor.
+                            </p>
+
+                            <div class="price" data-price="149">₹149</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza4.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Spicy Paneer Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-4"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Soft crust layered with spicy paneer cubes, melted cheese, colorful 
+                                capsicum, onions, and rich tomato sauce, creating a bold, aromatic, irresistible 
+                                Indian-inspired pizza delight.
+                            </p>
+
+                            <div class="price" data-price="249">₹249</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza5.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Classic Pepperoni Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-5"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A timeless favorite featuring a crispy crust, rich tomato sauce, 
+                                melted mozzarella, and savory pepperoni slices, baked to perfection for a bold, 
+                                comforting, and irresistibly satisfying taste.
+                            </p>
+
+                            <div class="price" data-price="119">₹119</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza6.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Chicken Momo Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-6"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A delicious star-shaped pizza featuring golden stuffed crust pockets, 
+                                tender chicken meatballs, melted mozzarella, and fresh bell peppers, creating a visually 
+                                stunning and mouthwatering experience with every bite.
+                            </p>
+
+                            <div class="price" data-price="349">₹349</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza7.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Spicy Paneer Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-7"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Golden crust topped with juicy spiced chicken, melted cheese, fresh peppers, 
+                                and chili slices, delivering a bold, colorful, irresistible flavor burst in every warm, 
+                                satisfying bite.
+                            </p>
+
+                            <div class="price" data-price="190">₹190</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza8.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Fresh Garden Delight</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-8"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A colorful medley of fresh vegetables, melted cheese, and crispy crust, 
+                                perfectly balanced with olives, peppers, and mushrooms for a rich, wholesome, and 
+                                irresistibly satisfying bite.
+                            </p>
+
+                            <div class="price" data-price="119">₹119</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza9.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Heart Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-9"></i>
+                            </div>
+
+                            <p class="food_para">A heart-shaped pizza layered with rich cheese, savory meats,
+                                olives, and fresh vegetables, baked to golden perfection, made to celebrate 
+                                love, warmth, and unforgettable flavors in every bite.
+                            </p>
+
+                            <div class="price" data-price="199">₹199</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza10.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Smoky Onion Delight</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-10"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Crispy crust layered with caramelized onions, rich sauce, melted 
+                                cheese, and fresh herbs, creating a warm, rustic pizza with deep flavors and 
+                                comforting aroma in every slice.
+                            </p>
+
+                            <div class="price" data-price="219">₹219</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza11.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Corn Sausage</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-11"></i>
+                                
+                            </div>
+
+                            <p class="food_para">A deliciously cheesy pizza topped with juicy sausages and 
+                                sweet corn, baked on a crispy crust, offering a perfect balance of smoky 
+                                flavor, softness, and comforting taste.
+                            </p>
+
+                            <div class="price" data-price="229">₹229</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza12.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Herb Paneer Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-12"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Crispy baked crust topped with tender spiced paneer, 
+                                melted cheese, fresh herbs, and juicy tomatoes, creating a warm, 
+                                flavorful, and comforting pizza perfect for any craving moment.
+                            </p>
+
+                            <div class="price" data-price="199">₹199</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza13.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Smoky Paneer Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-13"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Golden crust topped with smoky spiced paneer, 
+                                melted mozzarella, sweet onions, and fresh herbs, creating a rich, 
+                                comforting pizza with warm flavors and irresistible aroma in every slice.
+                            </p>
+
+                            <div class="price" data-price="219">₹219</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza14.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Spicy Square Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-14"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Golden square pizza slices topped with melted cheese, 
+                                jalapeños, olives, and colorful veggies, baked crisp and gooey, 
+                                delivering a bold, spicy kick with every satisfying, cheesy bite.
+                            </p>
+
+                            <div class="price" data-price="189">₹189</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr2">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza15.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Cheesy Pizza Bites</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-15"></i>
+                                
+                            </div>
+
+                            <p class="food_para">Soft pizza bites filled with melted cheese, baked until golden, 
+                                and served with rich dipping sauce, offering a warm, gooey, and delightful 
+                                burst of flavor in every bite.
+                            </p>
+
+                            <div class="price" data-price="249">₹249</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food_bar clr">
+                    <div class="op_box">
+                        <div class="main_pic"><img src="static/Pizza_img/Pizza16.jpg" class="pic">
+                            <div class="add_bar">
+                                <button class="sub_btn sub_add">-</button>
+                                <span class="qty">
+                                     <span class="num">Add</span>
+                                </span>
+                                <button class="add_btn sub_add">+</button>
+                            </div>
+                        </div>
+
+                        <div class="pic_texts">
+                            <div class="food_name"><h4 class="name">Corn Pizza</h4>
+                                <i class="fa-regular fa-heart heart" data-id="pizza-16"></i>
+                            </div>
+
+                            <p class="food_para">Golden Corn pizza slices topped with melted cheese, 
+                                jalapeños, olives, and colorful veggies, baked crisp and gooey, 
+                                delivering a bold, spicy kick with every satisfying, cheesy bite.
+                            </p>
+
+                            <div class="price" data-price="299">₹299</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="static/JS Files/pizza.js"></script>
+
+{% endblock pizza %}

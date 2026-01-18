@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block title %}Cart{% endblock title %}
+
+{% block body %}
+
+    <head>
+        <link rel="stylesheet" href="static/CSS Files/add.css">
+    </head>
+
+    <body>
+
+        <main>
+            <div class="offer_main_box">
+                <div class="aside_bar hide_items">
+                    <div class="items_bar">
+                        <div class="deliver_time">
+                            <h2>Your Cart</h2>
+                        </div>
+
+                        
+                        <div class="add_food">
+                            <p id="emptyCart" class="empty-cart">Your Cart is Empty 🛒</p>
+                            <div id="cartItems"></div>
+                        </div>
+
+                        <div class="amounts">
+                            <div class="amount_txt" id="total_amount">
+                                <p class="txt">Total:</p>
+                                <div class="span_bar">₹<span id="cartTotal">0</span></div>
+                            </div>
+                            
+                            <div class="amount_txt">
+                                <p class="txt">Delivery Charges:</p>
+                                <div class="span_bar">₹<span id="delivery_charges">0</span></div>
+                            </div>
+
+                            <div class="amount_txt">
+                                <p class="txt">Tax:</p>
+                                <div class="span_bar">₹<span id="tax">0</span></div>
+                            </div>
+
+                            <div class="amount_txt" id="offer">
+                                <p class="txt">Off:</p>
+                                <div class="span_bar">₹<span id="off">0</span></div>
+                            </div>
+                        </div>
+                        
+                        <div class="totale"><h3>Total: ₹<span id="Full_cartTotal">0</span></h3></div>
+                    </div>
+                </div>
+                <div class="offer_bar">
+                    <img src="static/Images/Offer_Banner.png" class="offer_img">
+
+                    {% comment %} <div class="items_bar responsive_type">
+                        <div class="deliver_time">
+                            <h2>Your Cart</h2>
+                        </div>
+
+                        
+                        <div class="add_food">
+                            <p id="emptyCart" class="empty-cart">Your Cart is Empty 🛒</p>
+                            <div id="cartItems"></div>
+                        </div>
+
+                        <div class="amounts">
+                            <div class="amount_txt" id="total_amount">
+                                <p class="txt">Total:</p>
+                                <div class="span_bar">₹<span id="cartTotal">0</span></div>
+                            </div>
+                            
+                            <div class="amount_txt">
+                                <p class="txt">Delivery Charges:</p>
+                                <div class="span_bar">₹<span id="delivery_charges">0</span></div>
+                            </div>
+
+                            <div class="amount_txt">
+                                <p class="txt">Tax:</p>
+                                <div class="span_bar">₹<span id="tax">0</span></div>
+                            </div>
+
+                            <div class="amount_txt" id="offer">
+                                <p class="txt">Off:</p>
+                                <div class="span_bar">₹<span id="off">0</span></div>
+                            </div>
+                        </div>
+                        
+                        <div class="total_bar">
+                            <div class="totale"><h3>Total: ₹<span id="Full_cartTotal">0</span></h3></div>
+                            <button class="order_bar respon_order" id="order_now_btn">Order Now</button>
+                        </div>
+                    </div> {% endcomment %}
+
+                    <button class="order_bar order_hide" id="order_now_btn">Order Now</button>
+                </div>
+            </div>
+        </main>
+
+        <script src="static/JS Files/cart.js"></script>
+
+    </body>
+
+
+
+{% endblock body%}
