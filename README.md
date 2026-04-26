@@ -1,5 +1,5 @@
 # Food-Man
-Author: <b>Sharvan Shaw</b>
+<b>Author: Sharvan Shaw</b>
 <br>
 This is my big project Food Man website.
 <br>
