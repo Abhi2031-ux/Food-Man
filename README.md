@@ -3,7 +3,7 @@
 <br>
 This is my big project Food Man website.
 <br>
-Food Man have lots of food you can like or order food.
+Food Man have lots of food you can like or order food that food is display ordered page.
 <br>
 This is website live in <b><i>foodmans.netlify.app</i></b>
 <br>
